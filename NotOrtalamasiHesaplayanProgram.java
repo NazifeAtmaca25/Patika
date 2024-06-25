@@ -29,7 +29,7 @@ public class NotOrtalamasiHesaplayanProgram {
         System.out.println("Müzik:");
         int muzik=scanner.nextInt();
         System.out.println();
-        int ortalama=(matematik+fizik+kimya+turkce+tarih+muzik)/6;
+        double ortalama=(matematik+fizik+kimya+turkce+tarih+muzik)/6;
         System.out.println("Ortalama:"+ortalama);
         System.out.println();
         if (ortalama>=60){
